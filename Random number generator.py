@@ -18,6 +18,7 @@ while True:
     time.sleep(0.9)
     Again=str(input("Do you want to use the program again? (Yes/No) "))
     if Again=="No":
+        print ("Thanks for using this program!")
         quit()
     if Again=="Yes":
         New_range=str(input("Do you want to enter a new range? (Yes/No) "))
